@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8"/>
     <title>『学习猿地』后台管理</title>
-    <link rel="stylesheet" type="text/css" href="css/admin_login.css"/>
+    <link rel="stylesheet" type="text/css" href="css/adminlogin.css"/>
 </head>
 <body>
 <div class="admin_login_wrap">
@@ -33,7 +33,7 @@
             </form>
         </div>
     </div>
-    <p class="admin_copyright"><a tabindex="5" href="#" target="_blank">返回首页</a> &copy; 2014 Powered by 更多模板：<a href="http://www.lmonkey.com/" target="_blank">学习猿地</a></p>
+    <p class="admin_copyright"><a tabindex="5" href="/indexselect">返回首页</a> &copy; 2020 方队：<a href="https://weibo.com/u/2036271641" target="_blank">catchatomato</a></p>
 </div>
 </body>
 </html>

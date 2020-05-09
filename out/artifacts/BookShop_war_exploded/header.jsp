@@ -20,10 +20,6 @@
                     <b>您好:<a href="/logout">${user.user_name}</a></b>
                 </c:if>
 
-                <c:if test="${isAdminLogin == 1}">
-                   <a href="/manage/admin_index.jsp" id="">后台管理</a>
-                </c:if>
-
             </p>
                 <form action="#" method="get" class="fl"><input type="text" placeholder="热门搜索：Java图书"/><input
                         type="button"/></form>

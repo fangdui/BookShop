@@ -19,7 +19,7 @@
             <h1 class="topbar-logo none"><a href="/manage/admin_index.jsp" class="navbar-brand">后台管理</a></h1>
             <ul class="navbar-list clearfix">
                 <li><a class="on" href="/manage/admin_index.jsp">首页</a></li>
-                <li><a href="/index.jsp" target="_blank">网站首页</a></li>
+                <li><a href="/indexselect" target="_blank">网站首页</a></li>
             </ul>
         </div>
         <div class="top-info-wrap">

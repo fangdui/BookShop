@@ -22,6 +22,7 @@ public class ProductSelect extends HttpServlet {
 
         ArrayList<TP_PRODUCT> plist = TP_PRODUCTDao.selectAll();
         request.setAttribute("plist",plist);
+
         request.getRequestDispatcher("/manage/admin_product.jsp").forward(request,response);
     }
 }

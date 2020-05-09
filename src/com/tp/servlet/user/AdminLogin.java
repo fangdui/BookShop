@@ -34,7 +34,7 @@ public class AdminLogin extends HttpServlet {
                 session.setAttribute("isAdminLogin","1");
                 response.sendRedirect("/manage/admin_index.jsp");
             }else {
-                response.sendRedirect("/index.jsp");
+                response.sendRedirect("/indexselect");
             }
         }else {
             PrintWriter out = response.getWriter();

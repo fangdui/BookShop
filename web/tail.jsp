@@ -19,6 +19,11 @@
         <dt><img src="img/gt3.png"/></dt>
         <dd>个人<br/>中心</dd>
     </dl>
+</a><a href="/manage/login.jsp" target="_blank">
+    <dl>
+        <dt><img style="width: 20px;height: 20px" src="img/gt5.png"/></dt>
+        <dd>后台<br/>登录</dd>
+    </dl>
 </a><a href="#" class="toptop" style="display: none">
     <dl>
         <dt><img src="img/gt4.png"/></dt>
@@ -33,9 +38,9 @@
             </div>
             <div class="clearfix"><a href="#2" class="fl"><img src="img/foot2.png"/></a><span class="fl">15天免费换货</span>
             </div>
-            <div class="clearfix"><a href="#2" class="fl"><img src="img/foot3.png"/></a><span class="fl">满599包邮</span>
+            <div class="clearfix"><a href="#2" class="fl"><img src="img/foot3.png"/></a><span class="fl">满299包邮</span>
             </div>
-            <div class="clearfix"><a href="#2" class="fl"><img src="img/foot4.png"/></a><span class="fl">手机特色服务</span>
+            <div class="clearfix"><a href="#2" class="fl"><img src="img/foot4.png"/></a><span class="fl">以顾客为上帝</span>
             </div>
         </div>
     </div>

@@ -7,10 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69747d95-5173-4e89-b3d4-9cd875d64662" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/JAVA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/Mysql.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/Spring.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/gt5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/filter/AdminLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/filter/AdminLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/service/TP_PRODUCTDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/service/TP_PRODUCTDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/home/IndexSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/home/IndexSelect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/product/ProductSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/product/ProductSelect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/user/AdminLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/user/AdminLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/user/AdminLogout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/user/AdminLogout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/images/product/timg5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/images/product/timg5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_productadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_productadd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/css/admin_login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/mygxin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/mygxin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/tail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/tail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/filter/AdminLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/filter/AdminLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/service/TP_PRODUCTDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/service/TP_PRODUCTDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/home/IndexSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/home/IndexSelect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/product/ProductSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/product/ProductSelect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/user/AdminLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/user/AdminLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/user/AdminLogout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/user/AdminLogout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tp/filter/AdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/filter/AdminLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tp/service/TP_PRODUCTDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/service/TP_PRODUCTDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tp/servlet/home/IndexSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/servlet/home/IndexSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tp/servlet/product/ProductSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/servlet/product/ProductSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tp/servlet/user/AdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/servlet/user/AdminLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tp/servlet/user/AdminLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/servlet/user/AdminLogout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manage/admin_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manage/admin_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manage/admin_productadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_productadd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manage/css/admin_login.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/css/adminlogin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manage/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/mygxin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mygxin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/tail.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +80,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,9 +103,10 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="bookshop" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/img" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.14650388" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -79,10 +120,10 @@
       <recent name="com.tp.servlet.cate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\TP0115\BookShop\out\artifacts\BookShop_war_exploded\img\temp" />
-      <recent name="E:\TP0115\BookShop\web\img\temp" />
       <recent name="E:\TP0115\BookShop\out\artifacts\BookShop_war_exploded\img" />
       <recent name="E:\TP0115\BookShop\web\img" />
+      <recent name="E:\TP0115\BookShop\out\artifacts\BookShop_war_exploded\img\temp" />
+      <recent name="E:\TP0115\BookShop\web\img\temp" />
       <recent name="E:\TP0115\BookShop\out\artifacts\BookShop_war_exploded\images\product" />
     </key>
   </component>
@@ -287,8 +328,23 @@
       <workItem from="1588649867287" duration="22261000" />
       <workItem from="1588738750477" duration="7872000" />
       <workItem from="1588780484012" duration="776000" />
-      <workItem from="1588842263288" duration="2139000" />
+      <workItem from="1588842263288" duration="2554000" />
+      <workItem from="1588922109746" duration="1235000" />
+      <workItem from="1588994764257" duration="9434000" />
+      <workItem from="1589004967137" duration="550000" />
+      <workItem from="1589006494462" duration="197000" />
+      <workItem from="1589007250585" duration="402000" />
+      <workItem from="1589012286149" duration="639000" />
+      <workItem from="1589014585119" duration="18507000" />
     </task>
+    <task id="LOCAL-00001" summary="this is my first commit">
+      <created>1588844674699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588844674699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,13 +355,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="this is my first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is my first commit" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
 </project>

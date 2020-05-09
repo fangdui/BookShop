@@ -3,7 +3,7 @@
   User: Peter
   DateTime: 2020/4/19 0019 1:23
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ include file="admin_menu.jsp" %>
     <!--/sidebar-->

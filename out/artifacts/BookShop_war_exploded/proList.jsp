@@ -17,7 +17,7 @@
 <body><!------------------------------head------------------------------>
 <%@ include file="header.jsp" %>
 <!------------------------------banner------------------------------>
-<div class="banner"><a href="#"><img src="img/temp/banner1.jpg"/></a></div>
+<div class="banner"><a href=" "><img style="height: 450px" src="img/temp/banner1.jpg"/></a></div>
 <!-----------------address------------------------------->
 <div class="address">
     <div class="wrapper clearfix"><a href="/indexselect">首页</a><span>/</span>
@@ -29,15 +29,15 @@
 </div><!-------------------current---------------------->
 <div class="current">
     <div class="wrapper clearfix"><h3 class="fl">${title}</h3>
-        <div class="fr choice"><p class="default">排序方式</p>
-            <ul class="select">
-                <li>新品上市</li>
-                <li>销量从高到低</li>
-                <li>销量从低到高</li>
-                <li>价格从高到低</li>
-                <li>价格从低到高</li>
-            </ul>
-        </div>
+<%--        <div class="fr choice"><p class="default">排序方式</p>--%>
+<%--            <ul class="select">--%>
+<%--                <li>新品上市</li>--%>
+<%--                <li>销量从高到低</li>--%>
+<%--                <li>销量从低到高</li>--%>
+<%--                <li>价格从高到低</li>--%>
+<%--                <li>价格从低到高</li>--%>
+<%--            </ul>--%>
+<%--        </div>--%>
     </div>
 </div><!----------------proList------------------------->
 <ul class="proList wrapper clearfix">

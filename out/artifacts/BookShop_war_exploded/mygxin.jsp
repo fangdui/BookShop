@@ -81,32 +81,11 @@
 </div><!------------------------------Bott------------------------------>
 <div class="Bott">
     <div class="wrapper clearfix">
-        <div class="zuo fl">
-            <h3><a href="#"><img src="img/tx.png"/></a>
-                <p class="clearfix"><span class="fl">[${user.user_name}]</span>
-                    <span class="fr"><a href="/logout">[退出登录]</a></span></p></h3>
-            <div><h4>我的交易</h4>
-                <ul>
-                    <li><a href="cart.html">我的购物车</a></li>
-                    <li><a href="myorderq.html">我的订单</a></li>
-                    <li><a href="myprod.html">评价晒单</a></li>
-                </ul>
-                <h4>个人中心</h4>
-                <ul>
-                    <li class="on"><a href="mygxin.html">我的中心</a></li>
-                    <li><a href="address.html">地址管理</a></li>
-                </ul>
-                <h4>账户管理</h4>
-                <ul>
-                    <li><a href="mygrxx.html">个人信息</a></li>
-                    <li><a href="remima.html">修改密码</a></li>
-                </ul>
-            </div>
-        </div>
+        <%@ include file="grdaohang.jsp"%>
         <div class="you fl">
             <div class="tx clearfix">
                 <div class="fl clearfix"><a href="#" class="fl"><img src="img/tx.png"/></a>
-                    <p class="fl"><span>${user.user_name}</span><a href="mygrxx.html">修改个人信息></a></p></div>
+                    <p class="fl"><span>${user.user_name}</span><a href="/grxxselect?id=${user.user_id}">修改个人信息></a></p></div>
                 <div class="fr">绑定邮箱：${user.user_email}</div>
             </div>
             <div class="bott">

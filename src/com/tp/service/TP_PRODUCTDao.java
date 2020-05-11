@@ -58,6 +58,40 @@ public class TP_PRODUCTDao {
         return list;
     }
 
+    public static ArrayList<TP_PRODUCT> selectByName(String name){
+        ArrayList<TP_PRODUCT> list = new ArrayList<>();
+        //声明结果集
+        ResultSet rs = null;
+        //获取连接对象
+        Connection conn = Basedao.getconn();
+        PreparedStatement ps = null;
+        try {
+            String sql = "select * from tp_product where product_name like ?";
+            ps = conn.prepareStatement(sql);
+            ps.setString(1,"%"+name+"%");
+            rs = ps.executeQuery();
+
+            while (rs.next()){
+                TP_PRODUCT product = new TP_PRODUCT(
+                        rs.getInt("product_id"),
+                        rs.getString("product_name"),
+                        rs.getString("product_description"),
+                        rs.getInt("product_price"),
+                        rs.getInt("product_stock"),
+                        rs.getInt("product_fid"),
+                        rs.getInt("product_cid"),
+                        rs.getString("product_filename")
+                );
+                list.add(product);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            Basedao.closeall(rs,ps,conn);
+        }
+        return list;
+    }
+
     public static ArrayList<TP_PRODUCT> selectLastFour(){
         ArrayList<TP_PRODUCT> list = new ArrayList<>();
         //声明结果集

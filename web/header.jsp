@@ -21,8 +21,9 @@
                 </c:if>
 
             </p>
-                <form action="#" method="get" class="fl"><input type="text" placeholder="热门搜索：Java图书"/><input
-                        type="button"/></form>
+                <form action="/doproductselect" method="get" class="fl">
+                    <input name="namePro" value="${param.namePro}" type="text" placeholder="热门搜索：Java图书"/>
+                    <input type="submit" value=""/></form>
                 <div class="btn fl clearfix">
                 <c:if test="${isLogin == 1}">
                     <a href="mygxin.jsp"><img src="img/grzx.png"/></a>

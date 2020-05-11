@@ -22,9 +22,8 @@ public class ToUserUpdate extends HttpServlet {
 
         String id = request.getParameter("id");
         //通过id到数据库查找信息
-        TP_USER user = TP_USERDao.selectById(id);
-        request.setAttribute("user",user);
-
+        TP_USER upUser = TP_USERDao.selectById(id);
+        request.setAttribute("upUser",upUser);
         request.setAttribute("cpage",request.getParameter("cpage"));
         request.getRequestDispatcher("/manage/admin_usermodify.jsp").forward(request,response);
     }

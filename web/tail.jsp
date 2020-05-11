@@ -14,12 +14,16 @@
         <dt><img src="img/gt2.png"/></dt>
         <dd>联系<br/>客服</dd>
     </dl>
-</a><a href="mygxin.jsp">
+</a>
+<c:if test="${isLogin == 1}">
+    <a href="mygxin.jsp">
     <dl>
         <dt><img src="img/gt3.png"/></dt>
         <dd>个人<br/>中心</dd>
     </dl>
-</a><a href="/manage/login.jsp" target="_blank">
+</a>
+</c:if>
+    <a href="/manage/login.jsp" target="_blank">
     <dl>
         <dt><img style="width: 20px;height: 20px" src="img/gt5.png"/></dt>
         <dd>后台<br/>登录</dd>

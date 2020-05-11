@@ -7,7 +7,6 @@
 <%@ include file="admin_menu.jsp" %>
     <!--/sidebar-->
     <div class="main-wrap">
-
         <div class="crumb-wrap">
             <div class="crumb-list"><i class="icon-font"></i><a href="/manage/admin_index.jsp">首页</a>
                 <span class="crumb-step">&gt;</span>
@@ -19,56 +18,56 @@
         <div class="result-wrap">
             <div class="result-content">
                 <form action="/manage/admin_douserupdate" method="post" id="myform" name="myform">
-                    <input type="hidden" name="userStatus" value="${user.user_status}">
+                    <input type="hidden" name="userStatus" value="${upUser.user_status}">
                     <input type="hidden" name="cpage" value="${cpage}">
                     <table class="insert-tab" width="100%">
                         <tbody>
                         <tr>
                             <th><i class="require-red">*</i>用户名：</th>
                             <td>
-                                <input class="common-text required" id="title" name="userName" size="50" value="${user.user_id}" type="text">
+                                <input class="common-text required" id="title" name="userName" size="50" value="${upUser.user_id}" type="text">
                             </td>
                         </tr>
                         <tr>
                             <th><i class="require-red">*</i>用户姓名：</th>
                             <td>
-                                <input class="common-text required" id="title" name="name" size="50" value="${user.user_name}" type="text">
+                                <input class="common-text required" id="title" name="name" size="50" value="${upUser.user_name}" type="text">
                             </td>
                         </tr>
                         <tr>
                             <th><i class="require-red">*</i>登陆密码：</th>
                             <td>
-                                <input class="common-text required" id="title" name="passWord" size="50" value="${user.user_password}" type="text">
+                                <input class="common-text required" id="title" name="passWord" size="50" value="${upUser.user_password}" type="text">
                             </td>
                         </tr>
 
                         <tr>
                             <th>性别：</th>
                             <td>
-                                <input type="radio" name="sex" value="T" ${user.user_sex=='T'?'checked':''}>男
-                                <input type="radio" name="sex" value="F" ${user.user_sex=='F'?'checked':''}>女
+                                <input type="radio" name="sex" value="T" ${upUser.user_sex=='T'?'checked':''}>男
+                                <input type="radio" name="sex" value="F" ${upUser.user_sex=='F'?'checked':''}>女
                             </td>
                         </tr>
                         <tr>
                             <th>出生日期：</th>
-                            <td><input class="common-text" name="birthday" size="50" value="${user.user_birthday}" type="text"></td>
+                            <td><input class="common-text" name="birthday" size="50" value="${upUser.user_birthday}" type="text"></td>
                         </tr>
                         <tr>
                             <th><i class="require-red">*</i>电子邮箱：</th>
                             <td>
-                                <input class="common-text required" id="title" name="email" size="50" value="${user.user_email}" type="text">
+                                <input class="common-text required" id="title" name="email" size="50" value="${upUser.user_email}" type="text">
                             </td>
                         </tr>
                         <tr>
                             <th><i class="require-red">*</i>手机号码：</th>
                             <td>
-                                <input class="common-text required" id="title" name="mobile" size="50" value="${user.user_mobile}" type="text">
+                                <input class="common-text required" id="title" name="mobile" size="50" value="${upUser.user_mobile}" type="text">
                             </td>
                         </tr>
                         <tr>
                             <th><i class="require-red">*</i>送货地址：</th>
                             <td>
-                                <input class="common-text required" id="title" name="address" size="50" value="${user.user_address}" type="text">
+                                <input class="common-text required" id="title" name="address" size="50" value="${upUser.user_address}" type="text">
                             </td>
                         </tr>
                         <tr>

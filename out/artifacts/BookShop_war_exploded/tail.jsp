@@ -23,7 +23,7 @@
     </dl>
 </a>
 </c:if>
-    <a href="/manage/login.jsp" target="_blank">
+    <a href="/manage/login.jsp">
     <dl>
         <dt><img style="width: 20px;height: 20px" src="img/gt5.png"/></dt>
         <dd>后台<br/>登录</dd>

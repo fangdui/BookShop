@@ -5,10 +5,12 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="admin_menu.jsp" %>
+<%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.util.Date" %>
     <!--/sidebar-->
     <div class="main-wrap">
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font">&#xe06b;</i><span>欢迎使用『学习猿地』博客程序，建博的首选工具。</span></div>
+            <div class="crumb-list"><i class="icon-font">&#xe06b;</i><span>欢迎使用『方队』后台管理系统。</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-title">
@@ -17,10 +19,8 @@
             <div class="result-content">
                 <div class="short-wrap">
                     <a href="admin_useradd.jsp"><i class="icon-font">&#xe001;</i>新增用户</a>
-                    <a href="insert.html"><i class="icon-font">&#xe005;</i>新增博文</a>
-                    <a href="insert.html"><i class="icon-font">&#xe048;</i>新增作品分类</a>
-                    <a href="insert.html"><i class="icon-font">&#xe041;</i>新增博客分类</a>
-                    <a href="#"><i class="icon-font">&#xe01e;</i>作品评论</a>
+                    <a href="/manage/admin_tocateadd"><i class="icon-font">&#xe005;</i>新增分类</a>
+                    <a href="/manage/admin_toproductadd"><i class="icon-font">&#xe048;</i>新增图书</a>
                 </div>
             </div>
         </div>
@@ -31,28 +31,27 @@
             <div class="result-content">
                 <ul class="sys-info-list">
                     <li>
-                        <label class="res-lab">操作系统</label><span class="res-info">WINNT</span>
+                        <label class="res-lab">操作系统</label><span class="res-info">Windows 10 专业版</span>
                     </li>
                     <li>
-                        <label class="res-lab">运行环境</label><span class="res-info">Apache/2.2.21 (Win64) PHP/7.3.10</span>
+                        <label class="res-lab">运行环境</label><span class="res-info">Tomcat 9</span>
                     </li>
                     <li>
-                        <label class="res-lab">PHP运行方式</label><span class="res-info">apache2handler</span>
+                        <label class="res-lab">运行工具</label><span class="res-info">IntelliJ IDEA</span>
                     </li>
                     <li>
-                        <label class="res-lab">静静设计-版本</label><span class="res-info">v-0.1</span>
+                        <label class="res-lab">处理器</label><span class="res-info">Intel(R) Core(TM)i7-6700HQ CPU @ 2.60 GHz 2.59 GHZ</span>
                     </li>
                     <li>
-                        <label class="res-lab">上传附件限制</label><span class="res-info">2M</span>
+                        <label class="res-lab">系统类型</label><span class="res-info">64位操作系统，基于x64的处理器</span>
                     </li>
+                    <%
+                        Date date = new Date();
+                        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                        String now = dateFormat.format(date);
+                    %>
                     <li>
-                        <label class="res-lab">北京时间</label><span class="res-info">2019年3月18日 21:08:24</span>
-                    </li>
-                    <li>
-                        <label class="res-lab">服务器域名/IP</label><span class="res-info">localhost [ 127.0.0.1 ]</span>
-                    </li>
-                    <li>
-                        <label class="res-lab">Host</label><span class="res-info">127.0.0.1</span>
+                        <label class="res-lab">现在北京时间</label><span class="res-info"><%=now%></span>
                     </li>
                 </ul>
             </div>
@@ -64,7 +63,7 @@
             <div class="result-content">
                 <ul class="sys-info-list">
                     <li>
-                        <label class="res-lab">更多模板：</label><span class="res-info"><a href="http://www.lmonkey.com/" target="_blank">学习猿地</a></span>
+                        <label class="res-lab">GitHub地址：</label><span class="res-info"><a href="https://github.com/fangdui" target="_blank">fangdui</a></span>
                     </li>
                 </ul>
             </div>

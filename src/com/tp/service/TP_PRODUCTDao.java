@@ -2,6 +2,7 @@ package com.tp.service;
 
 import com.tp.dao.Basedao;
 import com.tp.entity.TP_PRODUCT;
+import com.tp.entity.TP_USER;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -22,6 +23,28 @@ public class TP_PRODUCTDao {
                 product.getProduct_cid(),
                 product.getProduct_filename()
         };
+        return Basedao.exectuIUD(sql,params);
+    }
+
+    public static int update(TP_PRODUCT p){
+        String sql = "update tp_product set product_name=?,product_description=?,product_price=?,product_stock=?,product_fid=?,product_cid=?,product_filename=? where product_id=?";
+
+        Object[] params = {
+                p.getProduct_name(),
+                p.getProduct_description(),
+                p.getProduct_price(),
+                p.getProduct_stock(),
+                p.getProduct_fid(),
+                p.getProduct_cid(),
+                p.getProduct_filename(),
+                p.getProduct_id()};
+
+        return Basedao.exectuIUD(sql,params);
+    }
+
+    public static int del(String id){
+        String sql = "delete from tp_product where product_id=?";
+        Object[] params = {id};
         return Basedao.exectuIUD(sql,params);
     }
 

@@ -15,6 +15,8 @@ import java.io.PrintWriter;
 @WebServlet("/manage/admin_doproductadd")
 public class DoProductAdd extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html;charset=utf-8");
 
         //创建SmartUpload对象
         SmartUpload su = new SmartUpload();
@@ -70,8 +72,6 @@ public class DoProductAdd extends HttpServlet {
             out.write("location.href='/manage/admin_toproductadd';");
             out.write("</script>");
         }
-
-
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

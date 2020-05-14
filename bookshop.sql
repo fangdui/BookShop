@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50562
 File Encoding         : 65001
 
-Date: 2020-05-14 12:43:08
+Date: 2020-05-14 15:57:39
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -86,12 +86,12 @@ CREATE TABLE `tp_product` (
   `PRODUCT_CID` decimal(10,0) DEFAULT NULL,
   `PRODUCT_FILENAME` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`PRODUCT_ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of tp_product
 -- ----------------------------
-INSERT INTO `tp_product` VALUES ('1', '细说PHP 第四版', '这本书很好， 是一个不错书', '158.00', '3000', '14', '23', '0bf587e1b7d5de74.jpg');
+INSERT INTO `tp_product` VALUES ('1', '细说PHP 第四版', '这是一本学习PHP的书', '158.00', '2000', '14', '22', '0bf587e1b7d5de74.jpg');
 INSERT INTO `tp_product` VALUES ('2', 'PHP学习手册', '自学可以使用的手册，很全面', '51.00', '21', '14', '22', '592fb45cNac23b876.jpg');
 INSERT INTO `tp_product` VALUES ('3', 'PHP项目案例', '通过这本书，可以完成PHP的项目案例', '104.00', '55', '14', '23', '56f63c22Nbb294bc0.jpg');
 INSERT INTO `tp_product` VALUES ('4', 'Java编程思想', '这是一个好书呀', '109.00', '3223', '12', '17', '5624b582Nbc01af5b.jpg');
@@ -125,29 +125,16 @@ CREATE TABLE `tp_user` (
 -- ----------------------------
 INSERT INTO `tp_user` VALUES ('admin', 'admin', '123', 'F', '2019-10-08 00:00:00', null, 'aaa@bbb.com', '222222', '4323323232323232', '2');
 INSERT INTO `tp_user` VALUES ('admin1', 'admin', '123', 'T', '2019-10-08 00:00:00', null, 'aaa@bbb.com', '222222', '4323323232323232', '2');
-INSERT INTO `tp_user` VALUES ('admin2', 'admin', '123', 'T', '2019-10-08 00:00:00', null, 'aaa@bbb.com', '222222', '4323323232323232', '2');
-INSERT INTO `tp_user` VALUES ('admin3', 'admin', '123', 'T', '2019-10-08 00:00:00', null, 'aaa@bbb.com', '222222', '4323323232323232', '2');
-INSERT INTO `tp_user` VALUES ('admin4', 'admin', '123', 'T', '2019-10-08 00:00:00', null, 'aaa@bbb.com', '222222', '4323323232323232', '2');
-INSERT INTO `tp_user` VALUES ('admin5', 'admin', '123', 'T', '2019-10-08 00:00:00', null, 'aaa@bbb.com', '222222', '4323323232323232', '2');
-INSERT INTO `tp_user` VALUES ('admin6', 'admin', '123', 'T', '2019-10-08 00:00:00', null, 'aaa@bbb.com', '222222', '4323323232323232', '2');
-INSERT INTO `tp_user` VALUES ('admin7', 'admin', '123', 'T', '2019-10-08 00:00:00', null, 'aaa@bbb.com', '222222', '4323323232323232', '2');
-INSERT INTO `tp_user` VALUES ('ftp', '方铤沛123', '123', 'T', '1998-01-15 00:00:00', null, '529004684@qq.com', '12313123213', '上海', '1');
-INSERT INTO `tp_user` VALUES ('hello2', 'hello', '111', 'F', '2019-10-08 00:00:00', null, '88888', '88888', '8888888888', '1');
-INSERT INTO `tp_user` VALUES ('hello3', 'rewreww', 'www', 'T', '2019-10-08 00:00:00', null, 'retrewtrew', 'trewtrewt', 'rewtrewtew', '1');
-INSERT INTO `tp_user` VALUES ('hww', '胡文蔚', '123', 'F', '1996-06-02 00:00:00', null, '520@qq.com', '1313313131', '墨西哥', '1');
-INSERT INTO `tp_user` VALUES ('lisi5', '李四', '111', 'T', '2019-11-05 00:00:00', null, 'lisi@lmonkey.com', '15801684888', '北京西二期软件园', '1');
-INSERT INTO `tp_user` VALUES ('lisi67', '李四', '111', 'T', '2019-11-05 00:00:00', null, 'lisi@lmonkey.com', '15801684888', '北京西二期软件园', '1');
-INSERT INTO `tp_user` VALUES ('wangwu', '王五', '111', 'T', '2019-11-01 00:00:00', null, 'wangwu@lmonkey.com', '18810090000', '中关村软件园', '1');
+INSERT INTO `tp_user` VALUES ('ftp', '方铤沛', '123', 'T', '1998-01-15 00:00:00', null, 'tp@qq.com', '13790698435', '汕头市龙湖区', '1');
+INSERT INTO `tp_user` VALUES ('hww', '胡文蔚', '123', 'F', '2014-06-03 00:00:00', null, 'ww@qq.com', '1313313131', '河南省信阳市', '1');
 INSERT INTO `tp_user` VALUES ('wangwu1', '王五', '111', 'T', '2019-11-01 00:00:00', null, 'wangwu@lmonkey.com', '18810090000', '中关村软件园', '1');
 INSERT INTO `tp_user` VALUES ('wangwu2', '王五', '111', 'T', '2019-11-01 00:00:00', null, 'wangwu@lmonkey.com', '18810090000', '中关村软件园', '1');
 INSERT INTO `tp_user` VALUES ('wangwu3', '王五', '111', 'T', '2019-11-01 00:00:00', null, 'wangwu@lmonkey.com', '18810090000', '中关村软件园', '1');
 INSERT INTO `tp_user` VALUES ('wangwu4', '王五', '111', 'T', '2019-11-01 00:00:00', null, 'wangwu@lmonkey.com', '18810090000', '中关村软件园', '1');
 INSERT INTO `tp_user` VALUES ('wangwu5', '王五', '111', 'T', '2019-11-01 00:00:00', null, 'wangwu@lmonkey.com', '18810090000', '中关村软件园', '1');
-INSERT INTO `tp_user` VALUES ('wangwu6', '王五', '111', 'T', '2019-11-01 00:00:00', null, 'wangwu@lmonkey.com', '18810090000', '中关村软件园', '1');
-INSERT INTO `tp_user` VALUES ('wangwu67', '王五', '111', 'T', '2019-11-01 00:00:00', null, 'wangwu@lmonkey.com', '18810090000', '中关村软件园', '1');
-INSERT INTO `tp_user` VALUES ('zhangsan1', '张三', '111', 'T', '2019-11-08 00:00:00', null, 'zhangsan@lmonkey.com', '1192121221', '北京西二期软件园', '1');
+INSERT INTO `tp_user` VALUES ('yzm', '叶泽明', '123', 'F', '1998-02-15 00:00:00', null, 'zm@qq.com', '12313131', '河源', '1');
+INSERT INTO `tp_user` VALUES ('zhangsan1', '张三', '111', 'T', '2020-05-15 00:00:00', null, 'zhangsan@lmonkey.com', '1192121221', '北京西二期软件园', '1');
 INSERT INTO `tp_user` VALUES ('zhangsan2', '张三', '111', 'T', '2019-11-08 00:00:00', null, 'zhangsan@lmonkey.com', '1192121221', '北京西二期软件园', '1');
 INSERT INTO `tp_user` VALUES ('zhangsan3', '张三', '111', 'T', '2019-11-08 00:00:00', null, 'zhangsan@lmonkey.com', '1192121221', '北京西二期软件园', '1');
 INSERT INTO `tp_user` VALUES ('zhangsan4', '张三', '111', 'T', '2019-11-08 00:00:00', null, 'zhangsan@lmonkey.com', '1192121221', '北京西二期软件园', '1');
 INSERT INTO `tp_user` VALUES ('zhangsan5', '张三', '111', 'T', '2019-11-08 00:00:00', null, 'zhangsan@lmonkey.com', '1192121221', '北京西二期软件园', '1');
-INSERT INTO `tp_user` VALUES ('zhangsan6', '张三', '111', 'T', '2019-11-08 00:00:00', null, 'zhangsan@lmonkey.com', '1192121221', '北京西二期软件园', '1');

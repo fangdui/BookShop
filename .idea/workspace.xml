@@ -8,36 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="69747d95-5173-4e89-b3d4-9cd875d64662" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/user/GrxxSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/user/GrxxSelect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/user/ToGrxx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/user/ToGrxx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/grdaohang.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/grdaohang.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/grxxmodify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/grxxmodify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/system.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/mygrxx.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/mygrxx.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/mygxin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/mygxin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/reg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/remima.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/tail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/tail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/user/GrxxSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/user/GrxxSelect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/user/ToGrxx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/user/ToGrxx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tp/servlet/user/GrxxSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/servlet/user/GrxxSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tp/servlet/user/ToGrxx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/servlet/user/ToGrxx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/grdaohang.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/grdaohang.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/grxxmodify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/grxxmodify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/manage/admin_index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/manage/admin_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/manage/system.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mygrxx.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mygrxx.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mygxin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mygxin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/reg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/remima.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/tail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tp/service/TP_PRODUCTDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/service/TP_PRODUCTDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tp/service/TP_USERDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/service/TP_USERDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tp/servlet/product/DoProductAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/servlet/product/DoProductAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manage/admin_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manage/admin_useradd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_useradd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manage/admin_usermodify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_usermodify.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -326,7 +302,8 @@
       <workItem from="1589014585119" duration="18989000" />
       <workItem from="1589105332363" duration="1195000" />
       <workItem from="1589185012550" duration="20966000" />
-      <workItem from="1589350328482" duration="9485000" />
+      <workItem from="1589350328482" duration="9543000" />
+      <workItem from="1589431614368" duration="11356000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1588844674699</created>
@@ -363,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589218734772</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="this is my third commit">
+      <created>1589387066756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589387066756</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

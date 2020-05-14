@@ -167,7 +167,7 @@ public class TP_USERDao {
         Connection conn = Basedao.getconn();
         PreparedStatement ps = null;
         try {
-            String sql = "select t.*,DATE_FORMAT(t.user_birthday,'%y-%m-%d') birthday from tp_user t where user_id = ?";
+            String sql = "select t.*,DATE_FORMAT(t.user_birthday,'%Y-%m-%d') birthday from tp_user t where user_id = ?";
 
             ps = conn.prepareStatement(sql);
             ps.setString(1,id);
@@ -228,7 +228,7 @@ public class TP_USERDao {
         Connection conn = Basedao.getconn();
         PreparedStatement ps = null;
         try {
-            String sql = "select t.*,DATE_FORMAT(t.user_birthday,'%y-%m-%d') birthday from tp_user t where user_id = ?and user_password=?";
+            String sql = "select t.*,DATE_FORMAT(t.user_birthday,'%Y-%m-%d') birthday from tp_user t where user_id = ?and user_password=?";
 
             ps = conn.prepareStatement(sql);
             ps.setString(1,name);

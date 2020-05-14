@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="result-wrap">
-            <form action="/manage/admin_douserdel" id="myform" method="post">
+            <form action="" id="myform" method="post">
                 <div class="result-title">
                     <div class="result-list">
                         <a href="/manage/admin_toproductadd"><i class="icon-font"></i>新增图书</a>
@@ -35,15 +35,15 @@
                                     ${p.product_name}
                                 </td>
                                 <td>
-                                    <a href="">修改</a>
-                                    <a href="">删除</a>
+                                    <a href="/manage/admin_toproductupdate?id=${p.product_id}">修改</a>
+                                    <a href="javascript:Delete('你确定要删除[${p.product_name}]吗？','/manage/admin_doproductdel?id=${p.product_id}')">删除</a>
                                 </td>
                             </tr>
                         </c:forEach>
                         <script>
-                            function catedel(id) {
-                                if(confirm("你确定要删除这个分类吗")){
-                                    location.href="/manage/admin_docatedel?id="+id;
+                            function Delete(mess, url) {
+                                if(confirm(mess)){
+                                    location.href=url;
                                 }
                             }
                         </script>

@@ -6,14 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69747d95-5173-4e89-b3d4-9cd875d64662" name="Default Changelist" comment="">
+    <list default="true" id="69747d95-5173-4e89-b3d4-9cd875d64662" name="Default Changelist" comment="部分功能暂未实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tp/service/TP_PRODUCTDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/service/TP_PRODUCTDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tp/service/TP_USERDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/service/TP_USERDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tp/servlet/product/DoProductAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tp/servlet/product/DoProductAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/manage/admin_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/manage/admin_useradd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_useradd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/manage/admin_usermodify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/admin_usermodify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/service/TP_PRODUCTDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/service/TP_PRODUCTDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/service/TP_USERDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/service/TP_USERDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/product/DoProductAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/WEB-INF/classes/com/tp/servlet/product/DoProductAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_useradd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_useradd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_usermodify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookShop_war_exploded/manage/admin_usermodify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/service/TP_PRODUCTDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/service/TP_PRODUCTDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/service/TP_USERDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/service/TP_USERDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/product/DoProductAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookShop/com/tp/servlet/product/DoProductAdd.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -303,7 +306,7 @@
       <workItem from="1589105332363" duration="1195000" />
       <workItem from="1589185012550" duration="20966000" />
       <workItem from="1589350328482" duration="9543000" />
-      <workItem from="1589431614368" duration="11356000" />
+      <workItem from="1589431614368" duration="12505000" />
     </task>
     <task id="LOCAL-00001" summary="this is my first commit">
       <created>1588844674699</created>
@@ -347,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589387066756</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="部分功能暂未实现">
+      <created>1589443126223</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589443126223</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +380,8 @@
     <MESSAGE value="this is my first commit" />
     <MESSAGE value="this is my second commit" />
     <MESSAGE value="this is my third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="this is my third commit" />
+    <MESSAGE value="部分功能暂未实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分功能暂未实现" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
 </project>
